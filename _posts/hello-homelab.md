@@ -1,8 +1,8 @@
 ---
-title: TITLE
+title: ceci
 date: 2025-11-13 18:00:00 +0
-categories: [TOP_CATEGORY, SUB_CATEGORY]
-tags: [TAG]     # TAG names should always be lowercase
+categories: [voiture, habitation]
+tags: [test]     # TAG names should always be lowercase
 ---
 
 # Welcome
