@@ -31,9 +31,11 @@ Pour ce modèle portable, nous utiliserons uniquement un filtre à charbon actif
 ## Les composants électroniques :
 
 - Ventilateur 24 V
+
 Le choix s’est porté sur un ventilateur à forte pression statique, essentielle pour maintenir un flux d’air efficace à travers le filtre à charbon actif. Une pression statique élevée permet de surmonter la résistance du filtre et d’assurer un bon compromis entre débit d’air et puissance d’aspiration, garantissant que les fumées de soudure soient captées même à distance raisonnable.
 
 - BMS 2S (référence HX-2S-JH20)
+
 Un système de gestion de batterie (BMS) pour deux cellules en série sera intégré afin d’assurer la sécurité et la longévité des accumulateurs Li-ion. Il inclut les protections suivantes :
 
 1. Protection contre la charge excessive
@@ -57,7 +59,7 @@ Cette souplesse garantit un fonctionnement stable du ventilateur et du circuit �
 
 - Voltmètre en façade
 
-Indique la tension de la batterie et permet de suivre l’état de charge en temps réel.
+Indique la tension en sortie du convertisseur pour suivre la tension d'alimentation du ventilateur.
 
 - Potentiomètre pour le convertisseur Buck-Boost
 
