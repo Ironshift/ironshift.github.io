@@ -18,7 +18,7 @@ L’objectif de ce projet est donc de concevoir un système portable, alimenté 
 
 ## La filtration
 
-la filtration idéale doit combiner plusieurs étapes pour capter à la fois les particules et les vapeurs chimiques :
+La filtration idéale doit combiner plusieurs étapes pour capter à la fois les particules et les vapeurs chimiques :
 1. Filtration des particules fines
 - Filtre HEPA (High Efficiency Particulate Air) : capture les particules solides très fines (≥0,3 µm).
 
@@ -30,34 +30,37 @@ Pour ce modèle portable, nous utiliserons uniquement un filtre à charbon actif
 
 ## Les composants électroniques :
 
-1. Ventilateur 24 V
+- Ventilateur 24 V
 Le choix s’est porté sur un ventilateur à forte pression statique, essentielle pour maintenir un flux d’air efficace à travers le filtre à charbon actif. Une pression statique élevée permet de surmonter la résistance du filtre et d’assurer un bon compromis entre débit d’air et puissance d’aspiration, garantissant que les fumées de soudure soient captées même à distance raisonnable.
 
-2. BMS 2S (référence HX-2S-JH20)
+- BMS 2S (référence HX-2S-JH20)
 Un système de gestion de batterie (BMS) pour deux cellules en série sera intégré afin d’assurer la sécurité et la longévité des accumulateurs Li-ion. Il inclut les protections suivantes :
 
-- Protection contre la charge excessive
-- Protection contre la décharge excessive
-- Protection contre les courts-circuits
-- Protection contre la surintensité
+1. Protection contre la charge excessive
+2. Protection contre la décharge excessive
+3. Protection contre les courts-circuits
+4. Protection contre la surintensité
 
-3. Module USB-C → 9 V
+- Module USB-C → 9 V
 
 Le module permet de recharger la batterie via un port USB‑C standard, pratique pour une utilisation nomade et une recharge facile. Il utilise le protocole USB Power Delivery (USB PD) : lorsqu’il est connecté à un chargeur compatible, il échange des informations pour demander une tension de sortie spécifique, ici 9 V.
 
-4. Convertisseur Buck-Boost 5 – 32 V (référence XL6009 RED)
+- Convertisseur Buck-Boost 5 – 32 V (référence XL6009 RED)
 
 Ce convertisseur permet de régler la tension de sortie indépendamment de la tension d’entrée :
 
 Mode buck : abaisse la tension lorsque la tension d’entrée est supérieure à la tension souhaitée.
+
 Mode boost : augmente la tension lorsque la tension d’entrée est inférieure à la tension souhaitée.
 
 Cette souplesse garantit un fonctionnement stable du ventilateur et du circuit électronique, même lorsque la batterie se décharge.
 
-5. Voltmètre en façade
+- Voltmètre en façade
+
 Indique la tension de la batterie et permet de suivre l’état de charge en temps réel.
 
-6. Potentiomètre pour le convertisseur Buck-Boost
+- Potentiomètre pour le convertisseur Buck-Boost
+
 Permet de régler finement la tension de sortie et, par conséquent, la vitesse du ventilateur, offrant un contrôle de la puissance d’extraction selon les besoins.
 
 ## Modélisation 3D
