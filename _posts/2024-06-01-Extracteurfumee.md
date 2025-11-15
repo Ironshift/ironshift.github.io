@@ -1,9 +1,12 @@
 ---
 title: Extrateur de fumées portable
 date: 2024-06-01 00:00:00 +0000
+description: Réalisation d’un extracteur de fumée de soudure
 categories: [Projets personels]
 tags: []     # TAG names should always be lowercase
 math: true
+image:
+  path: /assets/Extracteur_fumee/Extracteurfumee03.webp
 ---
 
 # Objectif
