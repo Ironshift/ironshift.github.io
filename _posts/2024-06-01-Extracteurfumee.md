@@ -71,29 +71,29 @@ Modélisation réalisée sous SolidWorks
 
 L’objectif est de concevoir un boîtier le plus compact possible, tout en étant compatible avec des filtres à charbon standard de forme carrée.
 
-![Desktop View](/assets/Extracteurfumee/Extracteurfumee06.webp)
-![Desktop View](/assets/Extracteurfumee/Extracteurfumee07.webp)
+![Desktop View](/assets/Extracteur_fumee/Extracteurfumee06.webp)
+![Desktop View](/assets/Extracteur_fumee/Extracteurfumee07.webp)
 
 ## Assemblage des composants
 
 
-![Desktop View](/assets/Extracteurfumee/Extracteurfumee05.webp)
+![Desktop View](/assets/Extracteur_fumee/Extracteurfumee05.webp)
 _Assemblage de toute l'électronique_
 
-![Desktop View](/assets/Extracteurfumee/Extracteurfumee04.webp)
+![Desktop View](/assets/Extracteur_fumee/Extracteurfumee04.webp)
 _Installation des filtres charbon actif_
 
-![Desktop View](/assets/Extracteurfumee/Extracteurfumee01.webp)
+![Desktop View](/assets/Extracteur_fumee/Extracteurfumee01.webp)
 _Fermeture de la facade_
 
-![Desktop View](/assets/Extracteurfumee/Extracteurfumee02.webp)
+![Desktop View](/assets/Extracteur_fumee/Extracteurfumee02.webp)
 _Premier allumage_
 
 ## Résultats
 
 Le résultat final est très satisfaisant. Comme on peut le constater sur la photo ci-dessous, l’aspiration est largement suffisante, même avec deux étages de filtration au charbon actif.
 
-![Desktop View](/assets/Extracteurfumee/Extracteurfumee03.webp)
+![Desktop View](/assets/Extracteur_fumee/Extracteurfumee03.webp)
 
 ## Post Mortem
 
