@@ -2,7 +2,7 @@
 title: Imprimante 3D
 date: 2019-08-01 00:00:00 +0000
 description: Conception et réalisation d'une imprimante 3D
-categories: [Projets personels]
+categories: [Projets personels, CAO disponible]
 tags: []     # TAG names should always be lowercase
 math: true
 image:
@@ -202,5 +202,8 @@ L’électronique a été entièrement repensée. Elle reste positionnée dans l
 
 
 ## Résultat final :
+
+Vous pouvez consultez un 3D intéractif ci-dessous : 
+<https://ironshift.github.io/static/3DImprimante3DV3>
 
 ![Desktop Vi1ew](/assets/imprimante_3d/imprimante02.webp)

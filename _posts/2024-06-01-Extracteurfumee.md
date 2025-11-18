@@ -2,7 +2,7 @@
 title: Extrateur de fumées portable
 date: 2024-06-01 00:00:00 +0000
 description: Réalisation d’un extracteur de fumée de soudure
-categories: [Projets personels]
+categories: [Projets personels, CAO disponible]
 tags: []     # TAG names should always be lowercase
 math: true
 image:
@@ -95,6 +95,9 @@ _Premier allumage_
 ## Résultats
 
 Le résultat final est très satisfaisant. Comme on peut le constater sur la photo ci-dessous, l’aspiration est largement suffisante, même avec deux étages de filtration au charbon actif.
+
+Vous pouvez consultez un 3D intéractif ci-dessous : 
+<https://ironshift.github.io/static/3DExtracteurfumee>
 
 ![Desktop View](/assets/extracteur_fumee/Extracteurfumee03.webp)
 
