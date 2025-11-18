@@ -203,7 +203,6 @@ L’électronique a été entièrement repensée. Elle reste positionnée dans l
 
 ## Résultat final :
 
-Vous pouvez consultez un 3D intéractif ci-dessous : 
-<https://ironshift.github.io/static/3DImprimante3DV3>
+Vous pouvez consultez un 3D intéractif ici : <https://ironshift.github.io/static/3DImprimante3DV3>
 
 ![Desktop Vi1ew](/assets/imprimante_3d/imprimante02.webp)

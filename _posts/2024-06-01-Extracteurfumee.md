@@ -96,8 +96,7 @@ _Premier allumage_
 
 Le résultat final est très satisfaisant. Comme on peut le constater sur la photo ci-dessous, l’aspiration est largement suffisante, même avec deux étages de filtration au charbon actif.
 
-Vous pouvez consultez un 3D intéractif ci-dessous : 
-<https://ironshift.github.io/static/3DExtracteurfumee>
+Vous pouvez consultez un 3D intéractif ici : <https://ironshift.github.io/static/3DExtracteurfumee>
 
 ![Desktop View](/assets/extracteur_fumee/Extracteurfumee03.webp)
 
