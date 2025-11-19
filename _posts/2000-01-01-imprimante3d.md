@@ -173,7 +173,7 @@ _Résultat attendu_
 Après l’installation de l’accéléromètre LIS3DSH, la machine peut acquérir les données de vibration lors de mouvements programmés à différentes fréquences. L’objectif est d’identifier les fréquences propres de résonance de l’imprimante (les fréquences auxquelles la structure tend à osciller).
 
 ![Desktop Vi1ew](/assets/imprimante_3d/imprimante01.webp)
-_Accéléromètre fixé sur la tête d'impression (carte électronique violette) _
+_Accéléromètre fixé sur la tête d'impression (carte électronique violette)_
 
 - Analyse en domaine fréquentiel :
 
