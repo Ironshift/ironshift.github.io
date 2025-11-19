@@ -1,6 +1,6 @@
 ---
 title: CAO interactif
-date: 2024-06-01 00:00:00 +0000
+date: 2000-01-01 00:00:00 +0000
 description: Liste de toutes les conceptions 3D disponibles
 categories: [CAO disponible]
 tags: []     # TAG names should always be lowercase
