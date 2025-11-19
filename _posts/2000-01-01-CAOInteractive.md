@@ -1,5 +1,5 @@
 ---
-title: CAO interactif
+title: CAO interactive
 date: 2000-01-01 00:00:00 +0000
 description: Liste de toutes les conceptions 3D disponibles
 categories: [CAO disponible]
@@ -7,7 +7,7 @@ tags: []     # TAG names should always be lowercase
 math: true
 pin: true
 image:
-  path: /assets/cao_interactif/drawingexemple.webp
+  path: /assets/cao_interactive/drawingexemple.webp
 ---
 
 # 2024 - Extracteur de fumées
