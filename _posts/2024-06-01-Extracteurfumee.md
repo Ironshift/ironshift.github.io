@@ -68,6 +68,8 @@ Indique la tension en sortie du convertisseur pour suivre la tension d'alimentat
 
 Permet de régler finement la tension de sortie et, par conséquent, la vitesse du ventilateur, offrant un contrôle de la puissance d’extraction selon les besoins.
 
+![Desktop View](/assets/extracteur_fumee/Extracteurfumee08.webp)
+
 ## Modélisation 3D
 
 Modélisation réalisée sous SolidWorks
