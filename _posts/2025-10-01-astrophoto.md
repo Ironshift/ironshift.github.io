@@ -74,4 +74,34 @@ Une monture équatoriale permet d’aligner un de ses axes (l’axe d'ascension 
 
 Si la monture suit le ciel avec une vitesse angulaire égale à celle de la Terre, alors les étoiles restent immobiles sur le capteur, permettant des poses longues de plusieurs minutes sans filé.
 
-![Desktop View](/assets/nyan.gif)
+## Alignement polaire - Table équatoriale
+
+L’alignement polaire consiste à orienter l’axe de rotation de la monture équatoriale de manière parfaitement parallèle à l’axe de rotation de la Terre. Cet ajustement est essentiel, car seul un axe correctement aligné permet à la monture de compenser la rotation terrestre en n’utilisant qu’un moteur en ascension droite. Un mauvais alignement entraîne un suivi imparfait, des dérives progressives et un allongement des étoiles sur les poses longues.
+
+![Desktop View](/assets/astrophoto/miseenstation.webp)
+_Exemple de la mise en station d'une monture équatoriale_
+
+Pour réaliser la « mise en station », ou alignement polaire, nous allons fabriquer un module appelé table équatoriale. Ce dispositif permet de pointer précisément le pôle nord céleste (autrement dit l'axe de rotation de la terre) en ajustant la monture selon deux axes :
+
+- L’altitude : réglage vertical (haut/bas),
+- L’azimut : réglage horizontal (gauche/droite).
+
+1. Pré-alignement rapide au laser
+
+La première étape consiste à orienter grossièrement la monture vers le pôle céleste.
+Une visée laser alignée avec l’axe de la monture permet de pointer directement la région de l’étoile polaire.
+Cet ajustement n’a pas besoin d’être précis (1 à 2° d'erreur) : il sert simplement à placer la monture dans la bonne zone du ciel pour faciliter la suite.
+
+![Desktop View](/assets/astrophoto/miseenstationlaser.webp)
+_Alignement polaire grossier avec un laser (Source : Peter Zelinka)_
+
+2. Alignement polaire précis : méthode des trois points
+
+Le réglage fin est ensuite réalisé via une méthode d’astrométrie, le principe est le suivant :
+
+La monture pointe successivement trois zones du ciel. À chaque position, une image est capturée puis analysée : le logiciel identifie les étoiles présentes en les comparant à une base de données et, grâce à cette correspondance, calcule les coordonnées exactes du point visé.
+
+Le logiciel compare la position où la monture devrait se trouver (calculée à partir de la base de données) avec la position réellement observée. L’écart entre ces deux points correspond à l’erreur de mise en station. L’utilisateur corrige alors cette erreur en ajustant les vis d’azimut et d’altitude jusqu’à ce que l’alignement soit suffisamment précis (souvent inférieur à quelques dizaines d’arcsecondes).
+
+### Conception 3D de la table équatoriale
+
