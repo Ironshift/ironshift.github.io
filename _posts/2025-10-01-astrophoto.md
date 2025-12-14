@@ -105,3 +105,64 @@ Le logiciel compare la position où la monture devrait se trouver (calculée à 
 
 ### Conception 3D de la table équatoriale
 
+Vous pouvez consultez un 3D intéractif ici : 
+<https://ironshift.github.io/static/3DPolarAdjustmentUnit>
+
+
+
+Voici la table équatoriale en action suivant l'axe de L’altitude :
+
+![Desktop View](/assets/astrophoto/polarfindergif.gif)
+![Desktop View](/assets/astrophoto/polarfinder1.webp)
+![Desktop View](/assets/astrophoto/polarfinder2.webp)
+![Desktop View](/assets/astrophoto/polarfinder3.webp)
+
+## Suivi du ciel - Monture harmonique
+
+La monture harmonique sera entraînée par un moteur pas à pas, ce qui permet un contrôle précis de la position de l’appareil photo. Le moteur retenu est un modèle 400 pas par tour, offrant une meilleure résolution angulaire et donc une finesse de suivi accrue.
+
+Les drivers moteurs utilisés permettent en outre un pilotage en micro-pas jusqu’au 1/64 de pas, ce qui améliore la fluidité du mouvement et réduit les effets de saccades lors du suivi.
+
+La chaîne de transmission complète est donc composée des éléments suivants :
+- Moteur pas à pas : 400 pas par tour
+- Réducteur planétaire : 5:1,
+- Réducteur harmonique : 100:1.
+
+La résolution totale obtenue sera donc de : 400×64×5×100=12 800 000 micro-pas / tour
+
+Un tour complet correspond à : 360° = 1 296 000 secondes d'arc
+
+La résolution angulaire par micro-pas est donc :
+
+$$
+\begin{equation}
+   Resolution = {1 296 000 \over 12 800 000} ≈ 0.10125 "
+   \end{equation}
+$$
+
+Pour rappel, le ciel se déplace à 15"arc / secondes. la résolution est donc largement suffisante pour assurer un suivi précis du ciel.
+
+### Conception 3D de la monture harmonique
+
+Vous pouvez consultez un 3D intéractif ici : 
+<https://ironshift.github.io/static/3DPowerTrain>
+
+![Desktop View](/assets/astrophoto/Powertrain1.webp)
+![Desktop View](/assets/astrophoto/Powertrain2.webp)
+![Desktop View](/assets/astrophoto/Powertrain3.webp)
+
+
+## Le boîtier de contrôle
+
+
+### Conception 3D du boitier de contrôle
+
+Vous pouvez consultez un 3D intéractif ici : 
+<https://ironshift.github.io/static/3DControlBox>
+
+![Desktop View](/assets/astrophoto/controlbox01.webp)
+![Desktop View](/assets/astrophoto/controlbox02.webp)
+![Desktop View](/assets/astrophoto/controlbox03.webp)
+![Desktop View](/assets/astrophoto/controlbox04.webp)
+![Desktop View](/assets/astrophoto/controlbox05.webp)
+
