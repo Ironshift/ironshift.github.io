@@ -10,6 +10,18 @@ image:
   path: /assets/cao_interactive/drawingexemple.webp
 ---
 
+# 2025 - Astrophotographie
+
+CAO boitier de contrôle : <https://ironshift.github.io/static/3DExtracteurfumee>
+
+CAO monture harmonique : <https://ironshift.github.io/static/3DPowerTrain>
+
+CAO table équatoriale : <https://ironshift.github.io/static/3DPolarAdjustmentUnit>
+
+Projet : <https://ironshift.github.io/posts/astrophoto/>
+
+![Desktop View](/assets/astrophoto/andromeda.webp)
+
 # 2024 - Extracteur de fumées
 
 CAO : <https://ironshift.github.io/static/3DExtracteurfumee>
