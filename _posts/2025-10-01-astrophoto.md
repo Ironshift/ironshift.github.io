@@ -125,8 +125,8 @@ Les drivers moteurs utilisés permettent en outre un pilotage en micro-pas jusqu
 
 La chaîne de transmission complète est donc composée des éléments suivants :
 - Moteur pas à pas : 400 pas par tour
-- Réducteur planétaire : 5:1,
-- Réducteur harmonique : 100:1.
+- Réducteur planétaire : 5:1
+- Réducteur harmonique : 100:1
 
 La résolution totale obtenue sera donc de : 400×64×5×100=12 800 000 micro-pas / tour
 
@@ -141,6 +141,18 @@ $$
 $$
 
 Pour rappel, le ciel se déplace à 15"arc / secondes. la résolution est donc largement suffisante pour assurer un suivi précis du ciel.
+
+![Desktop View](/assets/astrophoto/MG17G5.webp)
+_Le réducteur planétaire 5:1 utilisé_
+
+![Desktop View](/assets/astrophoto/harmonicdrive2.webp)
+_Le réducteur harmonique 100:1 utilisé (HBS14)_
+
+Fonctionnement d'un réducteur harmonique : 
+
+![Desktop View](/assets/astrophoto/harmonicdrive4.gif)
+![Desktop View](/assets/astrophoto/harmonicdrive3.gif)
+
 
 ### Conception 3D de la monture harmonique
 
