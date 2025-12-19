@@ -9,6 +9,23 @@ image:
   path: /assets/astrophoto/andromeda.webp
 ---
 
+
+
+
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
+> Modèle : `PROJET EN COURS, la page n'est pas complète.`
+{: .prompt-tip }
+<!-- markdownlint-restore -->
+
+
+
+
+
+
+
+
+
 # Objectif
 
 Ce projet a pour objectif de concevoir un setup complet d’astrophotographie du ciel profond, performant et financièrement raisonnable. L’idée est de construire une solution capable d’assurer l’alignement, le suivi et le pilotage d'un appareil photo, afin d’obtenir des images nettes et exploitables des objets célestes.

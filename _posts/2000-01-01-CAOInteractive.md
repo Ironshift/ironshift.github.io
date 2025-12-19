@@ -12,7 +12,7 @@ image:
 
 # 2025 - Astrophotographie
 
-CAO boitier de contrôle : <https://ironshift.github.io/static/3DExtracteurfumee>
+CAO boitier de contrôle : <https://ironshift.github.io/static/3DControlBox>
 
 CAO monture harmonique : <https://ironshift.github.io/static/3DPowerTrain>
 
