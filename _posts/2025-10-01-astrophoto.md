@@ -159,16 +159,17 @@ $$
 
 Pour rappel, le ciel se déplace à 15"arc / secondes. la résolution est donc largement suffisante pour assurer un suivi précis du ciel.
 
-![Desktop View](/assets/astrophoto/MG17G5.webp)
-_Le réducteur planétaire 5:1 utilisé_
+![Desktop View](/assets/astrophoto/MG17G5&HarmonicDrive.webp)
+_Le réducteur planétaire 5:1 utilisé à gauche & Le réducteur harmonique 100:1 utilisé (HBS14) _
 
-![Desktop View](/assets/astrophoto/harmonicdrive2.webp)
-_Le réducteur harmonique 100:1 utilisé (HBS14)_
 
 Fonctionnement d'un réducteur harmonique : 
 
-![Desktop View](/assets/astrophoto/harmonicdrive4.gif)
-![Desktop View](/assets/astrophoto/harmonicdrive3.gif)
+Un réducteur harmonique, ou Harmonic Drive, repose sur trois éléments : le wave generator, le flexspline et le circular spline. Le wave generator, de forme elliptique, déforme le flexspline, une couronne dentée souple, qui engrène localement avec le circular spline, rigide et doté d'une dent de plus.
+
+Cette différence de dents crée un fort rapport de réduction à chaque rotation. De plus, le backlash est très faible car les dents sont en prise simultanément sur plusieurs zones et maintenues en contact par la déformation du flexspline, ce qui élimine presque tout jeu mécanique (backlash inférieur à 20 secondes d'arc, contre 30 minutes d'arc pour un réducteur planétaire)
+
+![Desktop View](/assets/astrophoto/harmonicdrive.gif)
 
 
 ### Conception 3D de la monture harmonique
