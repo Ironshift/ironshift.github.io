@@ -160,7 +160,7 @@ $$
 Pour rappel, le ciel se déplace à 15"arc / secondes. la résolution est donc largement suffisante pour assurer un suivi précis du ciel.
 
 ![Desktop View](/assets/astrophoto/MG17G5&HarmonicDrive.webp)
-_Le réducteur planétaire 5:1 utilisé à gauche & Le réducteur harmonique 100:1 utilisé (HBS14) _
+_Le réducteur planétaire 5:1 utilisé à gauche & Le réducteur harmonique 100:1 utilisé (HBS14)_
 
 
 Fonctionnement d'un réducteur harmonique : 
