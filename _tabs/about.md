@@ -4,5 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Rien à signaler ici. Et c’est parfaitement volontaire et assumé.
+> Rien à signaler ici. Et c’est parfaitement volontaire.
 {: .prompt-tip }
