@@ -14,7 +14,7 @@ image:
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> Modèle : `PROJET EN COURS, la page n'est pas complète.`
+> `PROJET EN COURS, la page n'est pas complète.`
 {: .prompt-tip }
 <!-- markdownlint-restore -->
 
@@ -103,7 +103,7 @@ Pour réaliser la « mise en station », ou alignement polaire, nous allons fabr
 - L’altitude : réglage vertical (haut/bas),
 - L’azimut : réglage horizontal (gauche/droite).
 
-1. Pré-alignement rapide au laser
+### Pré-alignement rapide au laser
 
 La première étape consiste à orienter grossièrement la monture vers le pôle céleste.
 Une visée laser alignée avec l’axe de la monture permet de pointer directement la région de l’étoile polaire.
@@ -112,7 +112,7 @@ Cet ajustement n’a pas besoin d’être précis (1 à 2° d'erreur) : il sert 
 ![Desktop View](/assets/astrophoto/miseenstationlaser.webp)
 _Alignement polaire grossier avec un laser (Source : Peter Zelinka)_
 
-2. Alignement polaire précis : méthode des trois points
+### Alignement polaire précis : méthode des trois points
 
 Le réglage fin est ensuite réalisé via une méthode d’astrométrie, le principe est le suivant :
 
@@ -138,7 +138,7 @@ Voici la table équatoriale en action suivant l'axe de L’altitude :
 
 La monture harmonique sera entraînée par un moteur pas à pas, ce qui permet un contrôle précis de la position de l’appareil photo. Le moteur retenu est un modèle 400 pas par tour, offrant une meilleure résolution angulaire et donc une finesse de suivi accrue.
 
-Les drivers moteurs utilisés permettent en outre un pilotage en micro-pas jusqu’au 1/64 de pas, ce qui améliore la fluidité du mouvement et réduit les effets de saccades lors du suivi.
+Les drivers moteurs utilisés permettent en outre un pilotage en micro-pas jusqu’au 1/256 de pas (mais nous l'utiliserons en 1/64 de pas), ce qui améliore la fluidité du mouvement et réduit les effets de saccades lors du suivi.
 
 La chaîne de transmission complète est donc composée des éléments suivants :
 - Moteur pas à pas : 400 pas par tour
@@ -167,7 +167,7 @@ Fonctionnement d'un réducteur harmonique :
 
 Un réducteur harmonique, ou Harmonic Drive, repose sur trois éléments : le wave generator, le flexspline et le circular spline. Le wave generator, de forme elliptique, déforme le flexspline, une couronne dentée souple, qui engrène localement avec le circular spline, rigide et doté d'une dent de plus.
 
-Cette différence de dents crée un fort rapport de réduction à chaque rotation. De plus, le backlash est très faible car les dents sont en prise simultanément sur plusieurs zones et maintenues en contact par la déformation du flexspline, ce qui élimine presque tout jeu mécanique (backlash inférieur à 20 secondes d'arc, contre 30 minutes d'arc pour un réducteur planétaire)
+Cette différence de dents crée un fort rapport de réduction à chaque rotation. De plus, le rattrapage de jeu (backlash) est très faible car les dents sont en prise simultanément sur plusieurs zones et maintenues en contact par la déformation du flexspline, ce qui élimine presque tout jeu mécanique (backlash inférieur à 20 secondes d'arc, contre 30 minutes d'arc pour un réducteur planétaire)
 
 ![Desktop View](/assets/astrophoto/harmonicdrive.gif)
 
@@ -184,6 +184,57 @@ Vous pouvez consultez un 3D intéractif ici :
 
 ## Le boîtier de contrôle
 
+Le boitier de contrôle constitue le "cerveau" de la monture. Elle a été conçue pour répondre à quatre impératifs majeurs :
+- Pilotage moteur : Gestion précise des axes d'ascension droite et de déclinaison.
+- Autonomie énergétique : Alimentation stabilisée pour une nuit complète d'observation en conditions réelles.
+- Connectivité : Interface de contrôle sans fil via Wi-Fi.
+- Automatisation : Gestion du déclenchement de l'appareil photo numérique (APN).
+
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
+> `Architecture Électronique : Fysetc E4 & Raspberry Pi`
+{: .prompt-tip }
+<!-- markdownlint-restore -->
+
+Pour la partie puissance et pilotage moteur, le choix s'est porté sur la carte Fysetc E4. Issue de l'univers de l'impression 3D, cette carte est particulièrement adaptée à notre usage grâce à ses caractéristiques intégrées :
+
+Drivers TMC2209 : Permettent un pilotage extrêmement silencieux et fluide avec une résolution allant jusqu'au 1/256ème de pas (nous l'utiliserons en 1/64 de pas)
+
+Microcontrôleur ESP32 : Un processeur puissant intégrant nativement le Wi-Fi, capable d'exécuter les commandes de mouvement en temps réel.
+
+![Desktop View](/assets/astrophoto/fysetcE4.webp)
+_Carte de contrôle Fysetc E4 équipée de drivers TMC2209_
+
+La supervision logicielle est confiée à un Raspberry Pi tournant sous AstroArch, une distribution Linux optimisée pour l'astrophotographie. Ce dernier assure la couche logicielle de haut niveau, notamment les calculs d'astrométrie indispensables à un alignement polaire précis via la méthode des trois points (CF [Alignement polaire précis](#alignement-polaire-précis--méthode-des-trois-points)), ainsi que le serveur d'interface pour l'utilisateur, accésible via VNC.
+
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
+> `Gestion de l'énergie et autonomie`
+{: .prompt-tip }
+<!-- markdownlint-restore -->
+
+Le système est conçu pour une utilisation nomade, excluant tout recours à un groupe électrogène ou à un raccordement secteur. L'étude de la consommation a permis d'établir le bilan énergétique suivant :
+
+- Raspberry pi : 6.2 W
+- Fysetc E4 : 1.15 W
+- Moteurs pas à pas :  0.85 W
+- Total : 8.20 W
+
+Pour garantir une autonomie minimale de 8 heures (soit une nuit complète), la capacité théorique nécessaire est de 65,6 Wh. Cependant, afin d'anticiper la chute de performance des cellules par temps froid, j'appliquerai un coefficient de sécurité important de 2 soit une capacité nécessaire de 121.2 W.h
+
+Le pack batterie est assemblé selon une configuration 4S4P (4 cellules en série, 4 en parallèle) à partir de 16 cellules de 9,25 Wh chacune, pour une capacité totale de 148 Wh. L'ensemble est sécurisé par un BMS (Battery Management System) qui protège les cellules contre : les sur-intensités, courts circuits, décharges profondes, etc. 
+
+<!-- markdownlint-capture -->
+<!-- markdownlint-disable -->
+> `Interface de charge et régulation`
+{: .prompt-tip }
+<!-- markdownlint-restore -->
+
+Pour simplifier la recharge du setup, le système intègre un module USB-C Power Delivery (PD) avec fonction step-up / step-down.
+
+Ce composant permet d'alimenter ou de charger l'ensemble du projet via n'importe quelle source USB-C moderne (chargeur de smartphone, batterie externe haute capacité). Le module négocie la tension avec la source (de 5V à 20V) et régule automatiquement la sortie à 16,8 V, correspondant à la tension nominale de charge du pack batterie 4S.
+
+![Desktop View](/assets/astrophoto/usbcmodule.webp)
 
 ### Conception 3D du boitier de contrôle
 
