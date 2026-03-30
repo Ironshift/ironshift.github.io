@@ -184,7 +184,7 @@ Vous pouvez consultez un 3D intéractif ici :
 
 ## Le boîtier de contrôle
 
-Le boitier de contrôle constitue le "cerveau" de la monture. Elle a été conçue pour répondre à quatre impératifs majeurs :
+Le boitier de contrôle constitue le "cerveau" de la monture. Il a été conçue pour répondre à quatre impératifs majeurs :
 - Pilotage moteur : Gestion précise des axes d'ascension droite et de déclinaison.
 - Autonomie énergétique : Alimentation stabilisée pour une nuit complète d'observation en conditions réelles.
 - Connectivité : Interface de contrôle sans fil via Wi-Fi.
@@ -232,7 +232,7 @@ Le pack batterie est assemblé selon une configuration 4S4P (4 cellules en séri
 
 Pour simplifier la recharge du setup, le système intègre un module USB-C Power Delivery (PD) avec fonction step-up / step-down.
 
-Ce composant permet d'alimenter ou de charger l'ensemble du projet via n'importe quelle source USB-C moderne (chargeur de smartphone, batterie externe haute capacité). Le module négocie la tension avec la source (de 5V à 20V) et régule automatiquement la sortie à 16,8 V, correspondant à la tension nominale de charge du pack batterie 4S.
+Ce composant permet d'alimenter ou de charger l'ensemble du projet via n'importe quelle source USB-C moderne (chargeur de smartphone, batterie externe). Le module négocie la tension avec la source (de 5V à 20V) et régule automatiquement la sortie à 16,8 V, correspondant à la tension nominale de charge du pack batterie 4S.
 
 ![Desktop View](/assets/astrophoto/usbcmodule.webp)
 
