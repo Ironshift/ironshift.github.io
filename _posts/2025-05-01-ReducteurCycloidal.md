@@ -1,7 +1,7 @@
 ---
 title: Réducteur Cycloidal
 date: 2025-05-01 00:00:00 +0000
-description: Modélisation mécanique et animation 3D d'un réducteur cycloïdal
+description: Modélisation mécanique et animation 3D d'un réducteur cycloidal
 categories: [CAO disponible, Animation 3D]
 tags: []     # TAG names should always be lowercase
 math: true
