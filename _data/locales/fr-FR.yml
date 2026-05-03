@@ -54,12 +54,12 @@ notification:
 post:
   written_by: Par
   posted: Posté le
-  #updated: Mis à jour
+  updated: Mis à jour
   words: mots
   pageview_measure: vues
   read_time:
     unit: min
-    prompt:  de lecture
+    prompt: lecture
   relate_posts: Autres posts
   share: Partager
   button:
