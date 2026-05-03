@@ -2,7 +2,7 @@
 title: Imprimante 3D
 date: 2019-08-01 00:00:00 +0000
 description: Conception et réalisation d'une imprimante 3D
-categories: [Projets personels, CAO disponible]
+categories: [CAO disponible]
 tags: []     # TAG names should always be lowercase
 math: true
 image:

@@ -2,7 +2,7 @@
 title: Extrateur de fumées portable
 date: 2024-06-01 00:00:00 +0000
 description: Réalisation d’un extracteur de fumée de soudure
-categories: [Projets personels, CAO disponible]
+categories: [CAO disponible, mini-projet]
 tags: []     # TAG names should always be lowercase
 math: true
 image:

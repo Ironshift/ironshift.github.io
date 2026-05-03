@@ -2,7 +2,7 @@
 title: Astrophotographie
 date: 2025-10-01 00:00:00 +0000
 description: Réalisation d’un setup d'astrophotographie du ciel profond de A à Z
-categories: [Projets personels, CAO disponible]
+categories: [CAO disponible]
 tags: []     # TAG names should always be lowercase
 math: true
 image:
@@ -246,4 +246,3 @@ Vous pouvez consultez un 3D intéractif ici :
 ![Desktop View](/assets/astrophoto/controlbox03.webp)
 ![Desktop View](/assets/astrophoto/controlbox04.webp)
 ![Desktop View](/assets/astrophoto/controlbox05.webp)
-
