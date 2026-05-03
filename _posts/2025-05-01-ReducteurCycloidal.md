@@ -1,12 +1,12 @@
 ---
-title: Réducteur Cycloidal
+title: Réducteur Cycloïdal
 date: 2025-05-01 00:00:00 +0000
-description: Modélisation mécanique et animation 3D d'un réducteur cycloidal
+description: Modélisation mécanique et animation 3D d'un réducteur cycloïdal
 categories: [CAO disponible, Animation 3D]
 tags: []     # TAG names should always be lowercase
 math: true
 image:
-  path: /assets/imprimante_3d/CycloidalDrive01.webp
+  path: /assets/reducteur_cycloidal/CycloidalDrive01.webp
 ---
 
 # Objectif
