@@ -19,7 +19,7 @@ Le projet se décline en trois axes majeurs :
 2. Animation : Création d'une animation photo-réaliste sous KeyShot.
 3. Validation Physique : Passage de la CAO au monde réel avec la fabrication du prototype.
 
-# Théorie et Modélisation
+## Théorie et Modélisation
 
 Contrairement aux engrenages classiques, le mouvement repose ici sur un disque aux courbes épi- ou hypocycloïdales roulant à l'intérieur d'un cercle de galets.
 
@@ -60,14 +60,14 @@ _Animation de la rotation du disque cycloïdal_
 
 3. `Oscillation vers rotation` Pour récupérer un mouvement utilisable (donc de rotation pur), un étage de broches de sortie traverse les cinq perçages dans le disque. Ces broches "filtrent" l'oscillation et ne transmettent que la rotation à l'arbre de sortie (CF [Animation](#animation))
 
-## Conception 3D du réducteur
+### Conception 3D du réducteur
 
 Vous pouvez consultez un 3D intéractif ici : 
 <https://ironshift.github.io/static/3DCycloidalDrive>
 
-# Animation
+## Animation
 
-Pour sublimer la mécanique du réducteur, j'ai utilisé KeyShot, un moteur de rendu basé sur le ray-tracing en temps réel. Ce logiciel permet d'appliquer des matériaux aux propriétés physiques et de simuler des environnements lumineux complexes pour obtenir un résultat photo-réaliste.
+Pour sublimer la mécanique du réducteur, j'ai utilisé KeyShot, un moteur de rendu basé sur le ray-tracing en temps réel. Ce logiciel permet d'appliquer des matériaux aux propriétés physiques proches du réel et de simuler des environnements lumineux complexes pour obtenir un résultat photo-réaliste.
 
 L'enjeu ici était de synchroniser parfaitement les rotations de l'excentrique avec le mouvement orbital du disque pour mettre en évidence la réduction de vitesse.
 
@@ -85,10 +85,21 @@ La haute fidélité visuelle demande une puissance de calcul considérable. voic
 
 {% include embed/youtube.html id='dRT5a-yM1lU ' %}
 
-# Validation Physique
+## Validation Physique
 
 ![Desktop View](/assets/reducteur_cycloidal/CycloidalDrive06.webp)
 _Assemblage du prototype imprimé en 3D_
 
 ![Desktop View](/assets/reducteur_cycloidal/CycloidalDrive07.gif)
 _Fonctionnement interne du prototype_
+
+## Conclusion
+
+Le résultat est un réducteur efficace et vraiment compact. L'impression 3D montre toutefois ses limites sur un format aussi petit : on observe quelques défauts d'excentricité qui se ressentent sur l'arbre de sortie.
+
+Pour la suite, une évolution intéressante serait de passer sur un système à double disque inversé à 180°. Cela permettrait de compenser naturellement le balourd de l'excentrique et d'équilibrer le mécanisme, ce qui est indispensable pour une utilisation à haute vitesse sans vibrations.
+
+Cependant, cela implique une conception plus complexe, notamment au niveau de l'assemblage de l'excentrique (arbre à double cames opposées).
+
+![Desktop View](/assets/reducteur_cycloidal/CycloidalDrive08.webp)
+_Première itération d'un réducteur à double disque cycloïdal_
