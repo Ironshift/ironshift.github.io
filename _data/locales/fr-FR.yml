@@ -22,10 +22,10 @@ search:
   cancel: Annuler
   no_results: Oups ! Aucun résultat trouvé.
 
-#panel:
-#  lastmod: Récemment mis à jour
-#  trending_tags: Tags tendance
-#  toc: Contenu
+panel:
+  lastmod: Récemment mis à jour
+  trending_tags: Tags tendance
+  toc: Contenu
 
 copyright:
   # Shown at the bottom of the post
@@ -59,7 +59,7 @@ post:
   pageview_measure: vues
   read_time:
     unit: min
-    prompt: de lecture
+    prompt: " de lecture"
   relate_posts: Autres posts
   share: Partager
   button:
