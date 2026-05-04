@@ -25,12 +25,12 @@ Contrairement aux engrenages classiques, le mouvement repose ici sur un disque a
 
 Contrairement aux engrenages classiques, la réduction ne repose pas sur des dents qui s'engrènent, mais sur un mouvement d'oscillation contrôlé :
 
-1. `Came excentrique` L'arbre d'entrée est muni d'une came excentrique. En tournant, elle ne transmet pas directement une rotation au disque, mais un mouvement d'oscillation circulaire.
+- `Came excentrique` L'arbre d'entrée est muni d'une came excentrique. En tournant, elle ne transmet pas directement une rotation au disque, mais un mouvement d'oscillation circulaire.
 
 ![Desktop View](/assets/reducteur_cycloidal/CycloidalDrive02.webp)
 _Une came excentrique montée sur un moteur pas à pas de taille NEMA 23_
 
-2. `Disque cycloïde` Sous l'impulsion de cet excentrique, le disque cycloïdal (pièce bleue) vient rouler à l'intérieur d'un cercle de galets fixes (axes jaunes). À cause de la différence entre le nombres d'axes (31) et le disque cycloïdal (30), ce dernier tourne très lentement sur lui-même dans le sens opposé à l'entrée.
+- `Disque cycloïde` Sous l'impulsion de cet excentrique, le disque cycloïdal (pièce bleue) vient rouler à l'intérieur d'un cercle de galets fixes (axes jaunes). À cause de la différence entre le nombres d'axes (31) et le disque cycloïdal (30), ce dernier tourne très lentement sur lui-même dans le sens opposé à l'entrée.
 
 $$
 \begin{equation}
@@ -58,7 +58,7 @@ _Tracé du profil cycloïdal_
 ![Desktop View](/assets/reducteur_cycloidal/CycloidalDrive04.webp)
 _Animation de la rotation du disque cycloïdal_
 
-3. `Oscillation vers rotation` Pour récupérer un mouvement utilisable (donc de rotation pur), un étage de broches de sortie traverse les cinq perçages dans le disque. Ces broches "filtrent" l'oscillation et ne transmettent que la rotation à l'arbre de sortie (CF [Animation](#animation))
+- `Oscillation vers rotation` Pour récupérer un mouvement utilisable (donc de rotation pur), un étage de broches de sortie traverse les cinq perçages dans le disque. Ces broches "filtrent" l'oscillation et ne transmettent que la rotation à l'arbre de sortie (CF [Animation](#animation))
 
 ### Conception 3D du réducteur
 
