@@ -133,6 +133,8 @@ Voici la table équatoriale en action suivant l'axe de L’altitude :
 ![Desktop View](/assets/astrophoto/polarfinder1.webp)
 ![Desktop View](/assets/astrophoto/polarfinder2.webp)
 ![Desktop View](/assets/astrophoto/polarfinder3.webp)
+![Desktop View](/assets/astrophoto/polarfinder4.webp)
+![Desktop View](/assets/astrophoto/polarfinder5.webp)
 
 ## Suivi du ciel - Monture harmonique
 
@@ -242,6 +244,7 @@ Vous pouvez consultez un 3D intéractif ici :
 <https://ironshift.github.io/static/3DControlBox>
 
 ![Desktop View](/assets/astrophoto/controlbox01.webp)
+![Desktop View](/assets/astrophoto/wiringdiag.webp)
 ![Desktop View](/assets/astrophoto/controlbox02.webp)
 ![Desktop View](/assets/astrophoto/controlbox03.webp)
 ![Desktop View](/assets/astrophoto/controlbox04.webp)
