@@ -6,7 +6,7 @@ categories: [Rénovation, mini-projet]
 tags: []     # TAG names should always be lowercase
 math: true
 image:
-  path: /assets/assets/ipod_classic/IpodClassic01.webp
+  path: /assets/ipod_classic/IpodClassic01.webp
 ---
 
 # Objectif
