@@ -1,5 +1,5 @@
 ---
-title: Réducteur Cycloïdal
+title: Rénovation Ipod Classic 5th Gen
 date: 2026-03-01 00:00:00 +0000
 description: Rénovation complète d'un Ipod Classic Génération 5
 categories: [Rénovation, mini-projet]
