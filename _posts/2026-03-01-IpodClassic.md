@@ -11,27 +11,45 @@ image:
 
 # Objectif
 
+L'idée est simple : se réapproprier sa musique et **se passer de smartphone** pour l'écoute quotidienne. Ce projet vise à transformer un appareil "obsolète" en un lecteur moderne, fiable et doté d'une autonomie massive.
+
 ## État d'origine
 
-![Desktop View](/assets/ipod_classic/IpodClassic00.webp)
-_Composants d'origines de l'IPOD_
+Le cobaye est un iPod Classic de 5ème génération (dit "Video"), acheté hors-service. Le diagnostic a révélé deux pannes classiques dues à l'âge :
+- **Disque dur (HDD) HS** : Claquements mécaniques et erreurs de lecture.
+- **Batterie en fin de vie** : Faible autonomie.
 
-## Rénovation
+## Modernisation Interne
+
+### 1. Stockage Flash
+
+Pour fiabiliser l'appareil, augmenter la capacité et diminuer la consomation énergétique, j'ai remplacé les composants mécaniques par du stockage flash, bien plus économe en énergie et moins sensible au chutes.
+En remplaçant le disque dur rotatif par une carte micro-SD, on gagne en vitesse d'accès, en poids et en silence.
+
+![Desktop View](/assets/ipod_classic/IpodClassicDualSD.webp)
+_Adaptateur iFlash Dual SD_
+
+### 2. Capacité batterie
+
+L'absence du disque dur libère une place considérable dans le châssis. J'en ai profité pour installer une batterie de **2000 mAh** (contre 580 mAh d'origine), offrant une autonomie théorique bien supérieure.
 
 ![Desktop View](/assets/ipod_classic/IpodClassicBattery.webp)
-_Source : www.iflash.xyz_
+_Comparaison de l'autonomie de la nouvelle batterie par rapport à celle d'origine._
 
 ![Desktop View](/assets/ipod_classic/IpodClassic04.webp)
 _Interne de l'IPOD après modification_
 
-![Desktop View](/assets/ipod_classic/IpodClassicDualSD.webp)
-_Adaptateur SD pour remplacer le disque dur_
+## 3. Restauration Esthétique
 
-## Résultat final
+Une fois les composants internes changés, un travail de polissage a été nécessaire pour redonner son éclat à la façade en polycarbonate et au dos en acier inoxydable.
+(Polisage réalisé avec de l'outillage pour polir les phares de voiture)
 
 ![Desktop View](/assets/ipod_classic/IpodClassic02.webp)
-_À gauche, l’iPod avant polissage ; à droite, après_
+_Avant/Après : suppression des micro-rayures_
+
+## Résultat Final
+
+Le résultat est un appareil parfaitement fonctionnel, capable de lire des fichiers FLAC haute fidélité avec une interface fluide et sans aucune distraction logicielle.
 
 ![Desktop View](/assets/ipod_classic/IpodClassic03.webp)
-
-
+_L'iPod Classic 5G_
