@@ -10,6 +10,7 @@ image:
   path: /assets/cao_interactive/drawingexemple.webp
 ---
 
+
 # 2025 - Astrophotographie
 
 CAO boitier de contrôle : <https://ironshift.github.io/static/3DControlBox>
@@ -22,6 +23,14 @@ Projet : <https://ironshift.github.io/posts/astrophoto/>
 
 ![Desktop View](/assets/astrophoto/andromeda.webp)
 
+# 2025 - Réducteur cycloïdal
+
+CAO : <https://ironshift.github.io/static/3DCycloidalDrive>
+
+Projet : <https://ironshift.github.io/posts/ReducteurCycloidal/>
+
+![Desktop View](/assets/reducteur_cycloidal/CycloidalDrive01.webp)
+
 # 2024 - Extracteur de fumées
 
 CAO : <https://ironshift.github.io/static/3DExtracteurfumee>
@@ -29,7 +38,6 @@ CAO : <https://ironshift.github.io/static/3DExtracteurfumee>
 Projet : <https://ironshift.github.io/posts/Extracteurfumee/>
 
 ![Desktop View](/assets/extracteur_fumee/Extracteurfumee06.webp)
-
 
 # 2019 - Imprimante 3D
 
