@@ -6,7 +6,7 @@ categories: [CAO disponible, Études]
 tags: []     # TAG names should always be lowercase
 math: true
 image:
-  path: /assets/machine_traction/tractiontitre.webp
+  path: /assets/machine_traction/vueeclatee.webp
 ---
 
 # Contexte
