@@ -2,7 +2,7 @@
 title: Machine de traction portative
 date: 2019-10-01 00:00:00 +0000
 description: Conception et fabrication d'une machine de traction portative adaptée à la tomographie aux rayons X.
-categories: [CAO disponible, Études]
+categories: [Études]
 tags: []     # TAG names should always be lowercase
 math: true
 image:
@@ -126,14 +126,14 @@ _Usinage d'une éprouvette cylindrique au tour traditionnel_
 _Vue éclatée de l'assemblage complet_
 
 ![Desktop View](/assets/machine_traction/piecesusinees.webp)
-_Vue éclatée de l'assemblage complet_
+_Intégralité des pièces non assemblées_
 
 # Résultat 
 
 Les tests finaux, illustrés dans la vidéo ci-dessous, confirment la robustesse de la conception.
 
 ![Desktop View](/assets/machine_traction/tractionvideo.gif)
-_Essai de traction réel sur une éprouvette acier de 2mm_
+_Essai de traction réel (vitesse x3) sur une éprouvette acier plate de 2mm_
 
 Le prototype actuel constitue une plateforme robuste et prête pour les étapes suivantes. La suite du développement, qui sera reprise par le prochain groupe d'élèves, se concentrera sur :
 
